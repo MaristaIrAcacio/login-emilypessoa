@@ -8,3 +8,13 @@ function acessar() {
        window.location.href = "aula2.html";
     }
 }
+// FUNÇÃO PARA ARMAZENAR NOMES EM ARRAY
+var dadoslista = [];
+
+function salvarUser(){
+    let nomeUser=document.getElementById("nomeUser").value;
+
+    if(nomeUser){
+        dadoslista.push(nomeUser);
+    }
+}
